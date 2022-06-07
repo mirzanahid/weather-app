@@ -1,0 +1,152 @@
+/*==================================================
+                common css start
+  ==================================================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: url(../images/mountine.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+/*==================================================
+                common css end
+  ==================================================*/
+/*==================================================
+               WP app css start
+  ==================================================*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.serch {
+    display: flex;
+    justify-content: center;
+}
+
+.serch input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.serch button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    background: #FF3333;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 100px;
+}
+
+.details h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.details p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details p span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+/*==================================================
+              WP  app css end
+  ==================================================*/
+/*==================================================
+              responsive  app css start
+  ==================================================*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .serch input {
+        width: auto;
+    }
+
+    .serch button {
+        font-size: 14px;
+        width: auto;
+        padding: 10px 10px 10px 10px;
+
+    }
+}
+
+/*==================================================
+              responsive  app css end
+  ==================================================*/
